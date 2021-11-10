@@ -1,0 +1,13 @@
+{
+  "name": "prometheus-express-example",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "nodemon main.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-prometheus-middleware": "^1.2.0",
+    "nodemon": "^2.0.15",
+    "prom-client": "^12.0.0"
+  }
+}
